@@ -76,3 +76,6 @@ DerivedDataCache/*
 
 # Temp files
 Temp/*
+
+!Plugins/**/*.dll
+
