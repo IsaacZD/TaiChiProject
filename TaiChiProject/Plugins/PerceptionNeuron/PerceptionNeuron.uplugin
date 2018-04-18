@@ -1,0 +1,23 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Perception Neuron",
+	"Version" : 1,
+	"VersionName" : "1.1.20171011",
+	"CreatedBy" : "Noitom Technology Co., Ltd.",
+	"CreatedByURL" : "http://www.Noitom.com/",
+	"Description" : "Support for the Noitom Perception Neuron BVH data receive and display",
+	"Category" : "Animation Data Source",
+	"CanContainContent" : true,
+	"Modules" :
+	[
+		{
+			"Name" : "PerceptionNeuronRuntime",
+			"Type" : "Runtime"
+		},
+		{
+			"Name" : "PerceptionNeuronEditor",
+			"Type" : "Editor"
+		},
+	]
+}
