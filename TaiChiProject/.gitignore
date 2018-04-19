@@ -79,3 +79,10 @@ Temp/*
 
 !Plugins/**/*.dll
 
+!Plugins/SpeechRecognition/**/*.lib
+
+
+/Content/model/*
+!/Content/model/zn
+/Content/model/zn/*
+!/Content/model/zn/zn.dict
