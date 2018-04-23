@@ -8,7 +8,7 @@ public class TaiChiProject : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "SpeechRecognition" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

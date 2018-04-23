@@ -1,0 +1,8 @@
+{
+	"BuildId": "3709383",
+	"Modules": 
+	{
+		"PerceptionNeuronEditor": "UE4Editor-PerceptionNeuronEditor.dll",
+		"PerceptionNeuronRuntime": "UE4Editor-PerceptionNeuronRuntime.dll"
+	}
+}
