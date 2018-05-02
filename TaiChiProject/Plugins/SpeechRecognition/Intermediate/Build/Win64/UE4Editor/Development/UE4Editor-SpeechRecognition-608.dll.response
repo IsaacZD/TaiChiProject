@@ -64,7 +64,7 @@
 "D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
 "D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
 "D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RHI.lib"
-/OUT:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition.dll"
-/IMPLIB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition.suppressed.lib"
-/PDB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition.pdb"
+/OUT:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition-608.dll"
+/IMPLIB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition-608.suppressed.lib"
+/PDB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition-608.pdb"
 /ignore:4078
