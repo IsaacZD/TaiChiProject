@@ -2,6 +2,6 @@
 	"BuildId": "3709383",
 	"Modules": 
 	{
-		"SpeechRecognition": "UE4Editor-SpeechRecognition-5088.dll"
+		"SpeechRecognition": "UE4Editor-SpeechRecognition.dll"
 	}
 }
