@@ -2,7 +2,7 @@
 
 #include "JudgeActor.h"
 
-#define DTWMAXNUM 2000
+#define DTWMAXNUM 4000
 #define DTWVERYBIG 1000.f
 
 // Sets default values
@@ -17,13 +17,12 @@ AJudgeActor::AJudgeActor()
 void AJudgeActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
-float AJudgeActor::DTWDistance(TArray<FVector> A, TArray<FVector> B, int r)
+float AJudgeActor::DTWDistance(TArray<FVector> A, TArray<FVector> B, int sizeA, int sizeB, int r)
 {
 
-	int I = A.Num(), J = B.Num();
+	int I = sizeA, J = sizeB;
 	if (I > DTWMAXNUM || J > DTWMAXNUM)
 		return -1.0;
 

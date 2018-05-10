@@ -21,6 +21,6 @@ protected:
 
 public:	
 	UFUNCTION(BlueprintCallable)
-	float DTWDistance(TArray<FVector> A, TArray<FVector> B, int r);
+	float DTWDistance(TArray<FVector> A, TArray<FVector> B, int sizeA, int sizeB, int r);
 	
 };
