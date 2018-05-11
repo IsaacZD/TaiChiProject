@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SpeechRecognition-6095.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+<<<<<<< HEAD:TaiChiProject/Plugins/SpeechRecognition/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SpeechRecognition.lib.response
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\Module.SpeechRecognition.cpp.obj"
+"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\Module.SpeechRecognition.gen.cpp.obj"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\PCLaunch.rc.res"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition.lib"
+=======
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\Module.SpeechRecognition.cpp.obj"
+"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\Module.SpeechRecognition.gen.cpp.obj"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\PCLaunch.rc.res"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition-6095.lib"
+>>>>>>> 51d9d6459bbcb2fe0e8b57b566c0e23f59c5fca6:TaiChiProject/Plugins/SpeechRecognition/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SpeechRecognition-6095.lib.response
