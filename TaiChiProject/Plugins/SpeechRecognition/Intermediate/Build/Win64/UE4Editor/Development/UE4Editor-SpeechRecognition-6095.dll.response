@@ -79,5 +79,5 @@
 /OUT:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition-6095.dll"
 /IMPLIB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition-6095.suppressed.lib"
 /PDB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition-6095.pdb"
->>>>>>> 51d9d6459bbcb2fe0e8b57b566c0e23f59c5fca6:TaiChiProject/Plugins/SpeechRecognition/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SpeechRecognition-6095.dll.response
+>>>>>>> dev:TaiChiProject/Plugins/SpeechRecognition/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SpeechRecognition-6095.dll.response
 /ignore:4078

@@ -79,8 +79,6 @@ bool USaveToTxt::FileSaveString(FString SaveTextB, FString FileNameB)
 	 PlatformFile.MoveFile(*newName2, *oldName2);
 	 PlatformFile.MoveFile(*newName3, *oldName3);
 	 PlatformFile.MoveFile(*newName4, *oldName4);
-	 FString s=  FPaths::Combine(*FPaths::GameSavedDir(), TEXT("Demos/Replay_2018-5-6-20-5/Replay_2018-5-6-20-5.demo"));
-	 FString x = FPaths::Combine(AbsoluteDestinationPath, TEXT("/Replay_2018-5-6-20.demo"));
 	 PlatformFile.MoveFile(*AbsoluteDestinationPath, *AbsoluteSourcePath);
 	 return oldName1;
  }
