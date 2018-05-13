@@ -1,0 +1,83 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"SphinxBase.dll"
+/DELAYLOAD:"PocketSphinx.dll"
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\Module.SpeechRecognition.cpp.obj"
+"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\Module.SpeechRecognition.gen.cpp.obj"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\SpeechRecognition\PCLaunch.rc.res"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+<<<<<<< HEAD:TaiChiProject/Plugins/SpeechRecognition/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SpeechRecognition.dll.response
+"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\ThirdParty\SphinxBase\Libraries\x64\SphinxBase.lib"
+"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\ThirdParty\PocketSphinx\Libraries\x64\PocketSphinx.lib"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"E:\UNREAL ENGINE\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RHI.lib"
+/OUT:"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition.dll"
+/IMPLIB:"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition.suppressed.lib"
+/PDB:"G:\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition.pdb"
+=======
+"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\ThirdParty\SphinxBase\Libraries\x64\SphinxBase.lib"
+"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\ThirdParty\PocketSphinx\Libraries\x64\PocketSphinx.lib"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"D:\Epic\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RHI.lib"
+/OUT:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition-6095.dll"
+/IMPLIB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpeechRecognition-6095.suppressed.lib"
+/PDB:"D:\Unreal Projects\TaiChiGit\TaiChiProject\Plugins\SpeechRecognition\Binaries\Win64\UE4Editor-SpeechRecognition-6095.pdb"
+>>>>>>> dev:TaiChiProject/Plugins/SpeechRecognition/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SpeechRecognition-6095.dll.response
+/ignore:4078
