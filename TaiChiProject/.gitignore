@@ -86,3 +86,5 @@ Temp/*
 !/Content/model/zn
 /Content/model/zn/*
 !/Content/model/zn/zn.dict
+
+/Content/Environment/SpeedTree
