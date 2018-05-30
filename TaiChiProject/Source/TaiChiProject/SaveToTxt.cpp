@@ -82,3 +82,62 @@ bool USaveToTxt::FileSaveString(FString SaveTextB, FString FileNameB)
 	 PlatformFile.MoveFile(*AbsoluteDestinationPath, *AbsoluteSourcePath);
 	 return oldName1;
  }
+
+TArray<FVector> USaveToTxt::LoadRecordData(FString name)
+{
+	TArray<uint8> binaryArray;
+	TArray<FVector> rv;
+	if (!FFileHelper::LoadFileToArray(binaryArray, *(FPaths::ProjectContentDir() + name)))
+	{
+		FString str = FString::Printf(TEXT("--- LoadFileToArray Fail"));
+		GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Red, str);
+		return rv;
+	}
+
+	FString str = FString::Printf(TEXT("--- Loaded File Size:%d"), binaryArray.Num());
+	GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Green, str);
+
+	if (binaryArray.Num() <= 0)
+		return rv;
+
+	FMemoryReader fromBinary = FMemoryReader(binaryArray, true);
+	fromBinary.Seek(0);
+
+	fromBinary << rv;
+
+	fromBinary.FlushCache();
+	fromBinary.Close();
+	return rv;
+}
+
+bool USaveToTxt::DumpRecordData(FString name, TArray<FVector> data)
+{
+	FBufferArchive toBinary;
+	toBinary << data;
+
+	FString str;
+
+	if (toBinary.Num() <= 0)
+	{
+		str = FString::Printf(TEXT("--- num < 0"));
+		GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Red, str);
+
+		return false;
+	}
+
+	if (FFileHelper::SaveArrayToFile(toBinary, *(FPaths::ProjectContentDir() + name)))
+	{
+		toBinary.FlushCache();
+		toBinary.Empty();
+
+		//str = FString::Printf(TEXT("--- save success"));
+		//GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Green, str);
+		return true;
+	}
+
+	str = FString::Printf(TEXT("--- save fail"));
+	GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Red, str);
+	toBinary.FlushCache();
+	toBinary.Empty();
+	return false;
+}

@@ -25,4 +25,12 @@ class  USaveToTxt : public UBlueprintFunctionLibrary
 		static bool CreateDirectory() ;
 	UFUNCTION(BlueprintCallable, Category = "Save")
 		static FString CopyDirectory(FString oldPath);
+
+	UFUNCTION(BlueprintCallable, Category = "Save")
+		static TArray<FVector> LoadRecordData(FString name);
+
+	UFUNCTION(BlueprintCallable, Category = "Save")
+		static bool DumpRecordData(FString name, TArray<FVector> data);
+
+
 };
