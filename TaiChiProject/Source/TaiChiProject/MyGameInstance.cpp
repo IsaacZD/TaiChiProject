@@ -31,7 +31,7 @@ void UMyGameInstance::PlayReplayFromBP(FString ReplayName)
 	PlayReplay(ReplayName);
 }
 void UMyGameInstance::FindReplays()
-{
+²»ÄÜ{
 	if (EnumerateStreamsPtr.Get())
 	{
 		EnumerateStreamsPtr.Get()->EnumerateStreams(FNetworkReplayVersion(), FString(), FString(), OnEnumerateStreamsCompleteDelegate);
